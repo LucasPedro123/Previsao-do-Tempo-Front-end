@@ -1,5 +1,5 @@
 const api = {
-    key: '57b03edddd891e11682e32c942d79de3',
+    key: '', // Crie sua própria chave para usar Weather.
     base: "https://api.openweathermap.org/data/2.5/",
     lang: "pt-br",
     units: "metric"
@@ -62,8 +62,8 @@ const showErrorMessage = () => {
 
 function displayResult(weather){
     console.log(weather)
-    tempMin.innerText = `${weather.main.temp_min}`
-    tempoMax.innerText = `${weather.main.temp_max}`
+    tempMin.innerText = `${weather.main.temp_min}°`
+    tempoMax.innerText = `${weather.main.temp_max}°`
     cityElement.innerText = `${weather.name}`
 
 }   

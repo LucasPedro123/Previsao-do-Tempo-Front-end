@@ -41,12 +41,14 @@ body {
 #search{
   display: block;
   border: none;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #e4b30400;
-  right: -140px;
-  bottom: 175px;
+  background-color: #ffc80000;
+  position: absolute;
+  left: 305px;
+  top: 185px;
+  width: 40px;
+  height: 40px;
 }
+
 
 .form input {
   background-image: url('../img/loupe.png');
@@ -80,16 +82,12 @@ body {
   }
 
   #search{
-    display: block;
-    border: none;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
+    position: absolute;
+    left: 950px;
+    top: 210px;
     height: 40px;
     width: 40px;
     background-color: #87f50000;
-    right: -250px;
-    bottom: 190px;
   }
   
   .form input {
