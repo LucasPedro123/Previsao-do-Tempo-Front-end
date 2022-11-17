@@ -1,0 +1,190 @@
+/* Geral */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient( #FF8C00, #e4b404 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.hide {
+  display: none !important;
+}
+.TextH1{
+  position: relative;
+  font-size: 60px;
+  color: #fff;
+  bottom: 150px;
+  text-align: center;
+}
+.container {
+  background-color: #e4b404;
+  padding: 2rem;
+  display: contents;
+  align-items: center;
+  color: #fdfdfd;
+  max-width: 400px;
+}
+
+/* Form */
+
+#search{
+  display: block;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e4b30400;
+  right: -140px;
+  bottom: 175px;
+}
+
+.form input {
+  background-image: url('../img/loupe.png');
+  background-repeat: no-repeat;
+  background-position: 290px;
+  background-size: 30px;
+  font-size: 120%;
+
+  padding: 0.8rem;
+  border: none;
+  position: relative;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 15px;
+  width: 300px;
+  bottom: 140px;
+
+  
+}
+
+
+@media(min-width: 720px){
+  .TextH1{
+    position: relative;
+    font-size: 75px;
+    color: #fff;
+    bottom: 210px;
+    text-align: center;
+    
+  }
+
+  #search{
+    display: block;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    background-color: #87f50000;
+    right: -250px;
+    bottom: 190px;
+  }
+  
+  .form input {
+    background-image: url('../img/loupe.png');
+    background-repeat: no-repeat;
+    background-position: 520px;
+    background-size: 30px;
+    font-size: 170%;
+    
+    padding: 0.8rem;
+    border: none;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 20px;
+    width: 540px;
+    bottom: 150px;
+  
+  }
+
+
+  
+}
+/* Clima */
+.temperature{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  color: rgb(53, 49, 49);
+  padding-top: 4rem;
+}
+
+#tempMin{
+  display: flex;
+  color: rgb(53, 49, 49);
+  padding-top: 1.5rem;
+  position: absolute;
+  bottom: 0px;
+  left: 24px;
+
+}
+
+
+#tempMax{
+  display: flex;
+  color: rgb(53, 49, 49);
+  position: absolute;
+  left: 80px;
+  bottom: 0px;
+}
+
+#Min{
+  display: flex;
+  justify-content:flex-start;
+  position: absolute;
+  bottom: -25px;
+  left: 24px;
+  color: rgb(0, 0, 0);
+}
+#Max{
+  display: flex;
+  justify-content:flex-start;
+  position: absolute;
+  left: 80px;
+  bottom: -25px;
+  color: rgb(0, 0, 0);
+}
+
+
+/* Clima */
+
+.city{
+  display: flex;
+  justify-content:center;
+  position: absolute;
+  font-size: 23px;
+  left: 200px;
+  bottom: -30px;
+  color: black;
+
+}
+
+
+.weather-data{
+  position: relative;
+  bottom: 110px;
+  border-top: 1px solid #fff;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.weather-data h1{
+  display: flex;
+  position: absolute;
+  left: 20px;
+}
+/* Loader */
