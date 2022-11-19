@@ -1,5 +1,5 @@
 const api = {
-    key: '', // Crie sua própria chave para usar Weather.
+    key: '57b03edddd891e11682e32c942d79de3', // Chave
     base: "https://api.openweathermap.org/data/2.5/",
     lang: "pt-br",
     units: "metric"

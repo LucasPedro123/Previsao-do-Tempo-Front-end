@@ -24,7 +24,7 @@ body {
   position: relative;
   font-size: 60px;
   color: #fff;
-  bottom: 150px;
+  bottom: 175px;
   text-align: center;
 }
 .container {
@@ -39,12 +39,12 @@ body {
 /* Form */
 
 #search{
-  display: block;
+  display: flex;
   border: none;
-  background-color: #ffc80000;
-  position: absolute;
-  left: 305px;
-  top: 185px;
+  background-color: #6aff0000;
+  position: relative ;
+  left: 390px;
+  top: -180px;
   width: 40px;
   height: 40px;
 }
@@ -69,22 +69,89 @@ body {
 
   
 }
+@media(max-width: 520px){
+  #search{
+    display: flex;
+    border: none;
+    background-color: #6aff0000;
+    position: relative ;
+    left: 365px;
+    top: -180px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media(max-width: 425px){
+  #search{
+    display: flex;
+    border: none;
+    background-color: #6aff0000;
+    position: relative ;
+    left: 315px;
+    top: -180px;
+    width: 40px;
+    height: 40px;
+  }
+}
 
+@media(max-width: 380px){
+  .TextH1{
+    position: relative;
+    font-size: 60px;
+    color: #fff;
+    bottom: 165px;
+    text-align: center;
+  }
+  
+  #search{
+    display: flex;
+    border: none;
+    background-color: #6fff0900;
+    position: relative ;
+    left: 270px;
+    top: -180px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .form input {
+    height: 15px;
+    width: 245px;
+    bottom: 140px;
+    background-position: 230px;
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 280px){
+  #search{
+    display: flex;
+    border: none;
+    background-color: #6fff0900;
+    position: absolute ;
+    left: 230px;
+    top: 190px;
+    width: 40px;
+    height: 40px;
+  }
+
+
+}
 
 @media(min-width: 720px){
   .TextH1{
     position: relative;
     font-size: 75px;
     color: #fff;
-    bottom: 210px;
+    bottom: 170px;
     text-align: center;
     
   }
 
   #search{
-    position: absolute;
-    left: 950px;
-    top: 210px;
+    position: relative;
+    left: 570px;
+    top: -190px;
     height: 40px;
     width: 40px;
     background-color: #87f50000;
@@ -108,8 +175,7 @@ body {
     bottom: 150px;
   
   }
-
-
+ 
   
 }
 /* Clima */
@@ -161,12 +227,9 @@ body {
 /* Clima */
 
 .city{
-  display: flex;
-  justify-content:center;
   position: absolute;
-  font-size: 23px;
-  left: 200px;
-  bottom: -30px;
+  font-size: 20px;
+  left: 180px;
   color: black;
 
 }
